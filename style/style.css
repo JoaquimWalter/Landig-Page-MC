@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(163, 104, 218);
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+
+#inscreva-btn{
+    border: 2px solid rgb(46, 17, 73);
+    padding: 10px;
+    border-radius: 20px;
+}
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    justify-content: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+}
+img{
+    width: 500px;
+    margin-left: 100px;
+}
+span{
+    color: rgb(46, 17, 73);
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#input-btn{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(46, 17, 73);
+    color: white;
+    cursor: pointer;
+}
+input{
+     margin-top: 20px;
+     height: 20px;
+     padding: 20px;
+     border-radius: 20px;
+     border: none;
+}
