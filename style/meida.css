@@ -1,0 +1,39 @@
+@media (max-width: 760px) {
+    
+
+    header{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    main{
+        flex-direction: column;
+    }
+    
+    h2{
+        font-size: 30px;
+        margin-left: 60px;
+    }
+    aside{
+    }
+    
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+    input{
+        align-items: center;
+    }
+    #input-btn{
+        width: 100%;
+    }
+   img{
+    width: 230px;
+   }
+   ul{
+    text-align: center;
+   }
+
+
+
+
+}
